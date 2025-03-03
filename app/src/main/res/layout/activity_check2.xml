@@ -34,7 +34,7 @@
             android:gravity="center"
             android:lineSpacingExtra="8sp"
             android:paddingHorizontal="25dp"
-            android:text="A continucación deberá indicar el tipo de problema que tiene"
+            android:text=" "
             android:textSize="20sp" />
 
         <LinearLayout
