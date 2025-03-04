@@ -69,6 +69,7 @@
                 android:text="Usuario" />
 
             <EditText
+                android:id="@+id/idCorreo"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginTop="15dp"
@@ -84,6 +85,7 @@
                 android:text="Contraseña" />
 
             <EditText
+                android:id="@+id/idContrasena"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginTop="15dp"
@@ -93,15 +95,30 @@
                 android:textSize="15sp" />
         </LinearLayout>
 
-        <!-- Botón de Iniciar sesión -->
-        <Button
-            android:id="@+id/main_form"
+        <!-- Botón de Iniciar sesión y Salir -->
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginHorizontal="25dp"
-            android:layout_marginBottom="15dp"
-            android:backgroundTint="@color/Azul_Oscuro"
-            android:text="Iniciar sesión" />
-    </LinearLayout>
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="10dp">
 
-</ScrollView>
+            <Button
+                android:id="@+id/main_form"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:backgroundTint="@color/Azul_Oscuro"
+                android:text="Iniciar sesión" />
+
+            <Button
+                android:id="@+id/exit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/Azul_Oscuro"
+                android:text="Salir" />
+        </LinearLayout>
+
+    </LinearLayout> <!-- Cierre correcto del LinearLayout principal -->
+
+</ScrollView> <!-- Cierre correcto del ScrollView -->

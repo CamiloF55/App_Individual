@@ -53,12 +53,12 @@
                 android:text="Tipo" />
 
             <EditText
+                android:id="@+id/idTipo"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginTop="15dp"
                 android:background="@drawable/edit_text_background"
-                android:hint="Correo electrónico"
-                android:inputType="textEmailAddress"
+                android:hint="Incidente, Requerimiento"
                 android:textSize="15sp" />
 
             <TextView
@@ -69,12 +69,12 @@
                 android:text="Categoria" />
 
             <EditText
+                android:id="@+id/idCategoria"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginTop="15dp"
                 android:background="@drawable/edit_text_background"
-                android:hint="Contraseña"
-                android:inputType="textPassword"
+                android:hint="Hardware, Red, Seguridad"
                 android:textSize="15sp" />
 
             <TextView
@@ -84,29 +84,28 @@
                 android:text="Urgencia" />
 
             <EditText
-                android:id="@+id/editTextTextPassword2"
+                android:id="@+id/idUrgencia"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginTop="15dp"
                 android:background="@drawable/edit_text_background"
-                android:hint="Contraseña"
-                android:inputType="textPassword"
+                android:hint="Alta, Media, Baja"
                 android:textSize="15sp" />
 
             <TextView
                 android:id="@+id/textView6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="TextView" />
+                android:text="Fecha de apertura" />
 
             <EditText
-                android:id="@+id/editTextTextPassword3"
+                android:id="@+id/idFecha"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginTop="15dp"
                 android:background="@drawable/edit_text_background"
-                android:hint="Contraseña"
-                android:inputType="textPassword"
+                android:hint="DD/MM/AA"
+                android:inputType="date"
                 android:textSize="15sp" />
 
             <TextView
@@ -116,13 +115,12 @@
                 android:text="Descripción del problema" />
 
             <EditText
-                android:id="@+id/editTextTextPassword4"
+                android:id="@+id/idDescript"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginTop="15dp"
                 android:background="@drawable/edit_text_background"
-                android:hint="Contraseña"
-                android:inputType="textPassword"
+                android:hint="Explique el problema detalladamente"
                 android:textSize="15sp" />
 
         </LinearLayout>
