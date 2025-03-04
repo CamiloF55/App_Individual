@@ -22,9 +22,9 @@ class CheckActivity2 : AppCompatActivity() {
         }
     }
 
-    /**
-     * Recupera los datos almacenados en SharedPreferences y los muestra en el TextView con id "idMostrar".
-     */
+
+     // Recupera los datos almacenados en SharedPreferences y los muestra en el TextView con id "idMostrar".
+
     private fun mostrarDatos() {
         // Obtiene la instancia de SharedPreferences con el nombre "MyPrefs"
         val sharedPreferences: SharedPreferences = getSharedPreferences("MyPrefs", MODE_PRIVATE)

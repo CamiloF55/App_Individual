@@ -23,10 +23,8 @@ class FormActivity2 : AppCompatActivity() {
         }
     }
 
-    /**
-     * Recupera los datos ingresados en los campos de texto y los guarda en SharedPreferences
-     * para que puedan ser utilizados en la siguiente actividad.
-     */
+    //Recupera los datos ingresados en los campos de texto y los guarda en SharedPreferences para que puedan ser utilizados en la siguiente actividad.
+
     private fun guardarDatos() {
         // Obtiene una instancia de SharedPreferences con el nombre "MyPrefs"
         val sharedPreferences: SharedPreferences = getSharedPreferences("MyPrefs", MODE_PRIVATE)
@@ -42,9 +40,8 @@ class FormActivity2 : AppCompatActivity() {
         editor.apply() // Aplica los cambios y guarda los datos de manera asíncrona
     }
 
-    /**
-     * Cambia de actividad y navega a CheckActivity2 donde se mostrarán los datos almacenados.
-     */
+    //Cambia de actividad y navega a CheckActivity2 donde se mostrarán los datos almacenados.
+
     private fun irACheckActivity() {
         val intent = Intent(this, CheckActivity2::class.java)
         startActivity(intent)
